@@ -1,0 +1,24 @@
+{
+  "name": "convertidorkglb",
+  "version": "0.1.0",
+  "description": "Convierte Kg a Libras o viceversa",
+  "main": "dist/src/convertidoKgLb.js",
+  "scripts": {
+    "build": "babel src/convertidoKgLb.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blacksh4rk/conversorKgLb.git"
+  },
+  "keywords": [
+    "convertidor",
+    "Kg",
+    "Lb"
+  ],
+  "author": "Ruben <rubencchh@gmail.com> (https://github.com/blacksh4rk/conversorKgLb)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
